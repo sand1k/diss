@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{mathtext}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{hyperref}
+
+
+\begin{document}
+
+\section{The empirical mean} 
+
+Define the empirical mean as
+$$
+\bar X = \frac{1}{n}\sum_{i=1}^n X_i. 
+$$
+Notice if we subtract the mean from data points, we get data that has mean 0. That is, if we define
+$$
+\tilde X_i = X_i - \bar X.
+$$
+The mean of the $\tilde X_i$ is 0.
+This process is called "centering" the random variables.
+Recall from the previous lecture that the mean is the least squares solution for minimizing
+$$
+\sum_{i=1}^n (X_i - \mu)^2
+$$
+
+
+\section{The emprical standard deviation and variance}
+
+Define the empirical variance as 
+$$
+S^2 = \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar X)^2 
+= \frac{1}{n-1} \left( \sum_{i=1}^n X_i^2 - n \bar X ^ 2 \right)
+$$
+The empirical standard deviation is defined as
+$s = \sqrt{S^2}$. Notice that the standard deviation has the same units as the data.
+The data defined by $X_i / s$ have empirical standard deviation 1. This is called "scaling" the data.
+
+\end{document}
