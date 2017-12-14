@@ -1,6 +1,7 @@
 #include <string>
+#include <vector>
 
-enum Token
+enum TokenId
 {
     // Keywords
     TK_BREAK,
@@ -46,6 +47,11 @@ enum Token
     TK_R_BRACKET
 };
 
+typedef struct Token
+{
+    TokenId id;
+} Token;
+
 class Lexer
 {
 public:
@@ -56,4 +62,6 @@ public:
 private:
     static const char *_kKeywords[];
     static const char *_kFutureReservedWords[];
+
+    std::vector<Token> _Tokens;
 };

@@ -37,7 +37,7 @@ const char *_kKeywords[] =
     "yield"
 };
 
-const char *_kFutureReservedWords[] = 
+const char *_kFutureReservedWords[] =
 {
     "enum",
     "await"
@@ -45,5 +45,34 @@ const char *_kFutureReservedWords[] =
 
 void Lexer::Run(const std::string &source)
 {
+    for (unsigned int i = 0; i < source.length(); i++) {
+        char c = source[i];
+        Token tk;
 
+        switch (c)
+        {
+        case '{':
+            tk.id = TK_L_BRACE;
+            break;
+        case '}':
+            tk.id = TK_R_BRACE;
+            break;
+        case '(':
+            tk.id = TK_L_PAREN;
+            break;
+        case ')':
+            tk.id = TK_R_PAREN;
+            break;
+        case '[':
+            tk.id = TK_L_BRACKET;
+            break;
+        case ']':
+            tk.id = TK_R_BRACKET;
+            break;
+        default:
+            break;
+        };
+
+        _Tokens.push_back(tk);
+    }
 }
