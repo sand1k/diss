@@ -69,6 +69,8 @@ void Lexer::Run(const std::string &source)
         case ']':
             tk.id = TK_R_BRACKET;
             break;
+        case 'v':
+
         default:
             break;
         };
