@@ -12,7 +12,7 @@ Useful links:
 Literature:
 * [Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints, Cousot, P. and R. Cousot](https://courses.cs.washington.edu/courses/cse503/10wi/readings/p238-cousot.pdf)
 * [Adaptive Optimization for Self: reconciling high performance with exploratory programming, Urz Holzle, Ph.D. thesis,  Stanford University](http://hoelzle.org/publications/urs-thesis.pdf)
-* [Concrete type inference: delivering object-oriented applications. Ole Agesen. (http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=386720A988C8C69AF6D2EDE05774192A?doi=10.1.1.93.4969&rep=rep1&type=pdf)
+* [Concrete type inference: delivering object-oriented applications. Ole Agesen.](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=386720A988C8C69AF6D2EDE05774192A?doi=10.1.1.93.4969&rep=rep1&type=pdf)
 * [Code Generation On the Fly: A Key to Portable Software, Michael Steffen Oliver Franz, Swiss Federal Institute of Technology Zurich](https://pdfs.semanticscholar.org/6acf/85e7e8eab7c9089ca1ff24531c341168f93c.pdf)
 * [The Design and Evaluation ohttp://www.techort.com/wp-content/uploads/2017/09/1506611720_568_v8-under-the-hood-blog-company-jug-ru-group-habrahabr.jpegf A High Performance Samlltalk System, David Michael Ungar, Ph. D. thesis, University of California, Berkeley](http://digitalassets.lib.berkeley.edu/techreports/ucb/text/CSD-86-287.pdf)
 * [Static Analysis of Dynamic Languages, Magnus Mdsen, Ph. D. thesis, Aarhus University](https://pure.au.dk/ws/files/85299449/Thesis.pdf)
