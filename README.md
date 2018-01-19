@@ -33,3 +33,6 @@ Literature:
 * [“DeepFix: Fixing Common C Language Errors by Deep Learning” by Rahul Gupta, Soham Pal, Aditya Kanade, Shirish Shevade](http://confluence.rnd.samsung.ru/download/attachments/22380713/aaai17.pdf?version=1&modificationDate=1499850966000&api=v2)
 * [“Learning Programs from Noisy Data” by Veselin Raychev, Pavol Bielik, Martin Vechev and Andreas Krause](http://confluence.rnd.samsung.ru/download/attachments/22380713/p761-raychev.pdf?version=1&modificationDate=1501751291000&api=v2)
 * [“Automatic Patch Generation by Learning Correct Code” by Fan Long and Martin Rinard](http://confluence.rnd.samsung.ru/download/attachments/22380713/prophet-popl16.pdf?version=1&modificationDate=1499438828000&api=v2)
+* [The Strength of Random Search on Automated Program Repair, Yuhua Qi , Xiaoguang Mao , Yan Lei, Ziying Dai and Chengsong Wang](https://www.utdallas.edu/~lxz144130/cs6301-readings/repair-qi-icse14.pdf)
+* [History Driven Program Repair, Xuan-Bach D. Le, David Lo, Claire Le Goues](https://www.cs.cmu.edu/~clegoues/docs/bach-saner16.pdf)
+* Exploring Machine Learning Techniques for Fault Localization, Luciano C. Ascari, Lucilia Y. Araki, Aurora R.T. Pozo, Silvia R. Vergilio
